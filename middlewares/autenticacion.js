@@ -5,7 +5,7 @@ var SEED = require('../config/config').SEED;
 module.exports = {
     verificarToken: ( req, res, next) => {
         var token = req.query.token;
-        jwt.verify(token,SEED, ( err, decoded) => {
+        jwt.verify(token, SEED, ( err, decoded) => {  // Permite verificar si el token es seguro 
             if (err){
                 return res.status(400).json({
                     ok:false,
