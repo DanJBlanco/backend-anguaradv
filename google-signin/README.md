@@ -1,6 +1,6 @@
-# BACKEND - SERVER - ADMIN PRO
+# Micro servidor 
 
-Contiene servicios necesarios para el funcionamiento de AdminPro
+sirve para hacer pruebas con la api de google.
 
 instalar modulos de node con 
 ```

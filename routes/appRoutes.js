@@ -30,6 +30,8 @@ router.route('/usuario/:id')
 // ==============================
 router.route('/login')
 .post(loginController.loginUsuario);
+router.route('/login/google')
+.post(loginController.loginGoogle);
 
 
 // ==============================
