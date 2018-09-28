@@ -20,7 +20,7 @@ var imagenesController = require('../controllers/imagenes.controller');
 // ==============================
 router.route('/usuario')
 .get(usuarioControler.getAllUser)
-.post(mdAutenticacion.verificarToken, usuarioControler.registrarUsuario);
+.post( usuarioControler.registrarUsuario);
 router.route('/usuario/:id')
 .put(mdAutenticacion.verificarToken, usuarioControler.actualizarUsuario)
 .delete(mdAutenticacion.verificarToken, usuarioControler.eliminarUsuario);

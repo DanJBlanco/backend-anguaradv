@@ -62,6 +62,7 @@ module.exports = {
                 }
             )};
 
+            usuarioGuardado.password = ':)';
             res.status(201).json({
                 ok: true,
                 usuario: usuarioGuardado,
